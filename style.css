@@ -1,0 +1,27 @@
+h1,
+.h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+.navbar-brand,
+.offcanvas-title {
+    font-family: 'Parisienne', cursive;
+
+}
+
+#hero {
+    height: 100vh;
+    background-image: url(./assets/img/Syifa.JPG);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-title {
+    margin-top: 150px;
+}
+
+.box {
+    width: 35px;
+    height: 35px;
+}
