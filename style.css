@@ -2,6 +2,9 @@
 .h1 {
     font-family: 'Great Vibes', cursive;
 } */
+body {
+    height: 3000px;
+}
 
 .navbar-brand,
 .offcanvas-title {
@@ -24,4 +27,59 @@
 .box {
     width: 35px;
     height: 35px;
+}
+
+#category .card {
+    max-width: 250px;
+    max-height: 450px;
+    border-color: gold;
+}
+
+#category img {
+    border: 0;
+}
+
+#fitur {
+    background-color: lightyellow;
+}
+
+#nav-wedding {
+    background-image: url(./assets/img/wedding-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#nav-birthday {
+    background-image: url(./assets/img/birthday-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#nav-aqiqah {
+    background-image: url(./assets/img/aqiqah-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#nav-khitanan {
+    background-image: url(./assets/img/khitanan-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.paket-list li {
+    list-style: none;
+}
+
+#paket-harga .card-header {
+    border: 0;
+}
+
+#tabel-fitur {
+    border-collapse: separate;
+    border-spacing: 15px;
 }
