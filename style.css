@@ -3,92 +3,95 @@
     font-family: 'Great Vibes', cursive;
 } */
 body {
-    height: 3000px;
+  height: 3000px;
 }
 
 .navbar-brand,
 .offcanvas-title {
-    font-family: 'Parisienne', cursive;
+  font-family: "Parisienne", cursive;
+}
 
+.navbar-brand {
+  margin-left: 50px;
 }
 
 #hero {
-    height: 100vh;
-    background-image: url(./assets/img/Syifa.JPG);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+  height: 100vh;
+  background-image: url(./assets/img/Syifa.JPG);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .hero-title {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .box {
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
 }
 
 #category .card {
-    max-width: 250px;
-    max-height: 450px;
-    border-color: gold;
+  max-width: 250px;
+  max-height: 450px;
+  border-color: gold;
 }
 
 #category img {
-    border: 0;
+  border: 0;
 }
 
 #fitur {
-    background-color: lightyellow;
+  background-color: lightyellow;
 }
 
 #nav-wedding {
-    background-image: url(./assets/img/wedding-background.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: scroll;
+  background-image: url(./assets/img/wedding-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 #nav-birthday {
-    background-image: url(./assets/img/birthday-background.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: scroll;
+  background-image: url(./assets/img/birthday-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 #nav-aqiqah {
-    background-image: url(./assets/img/aqiqah-background.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: scroll;
+  background-image: url(./assets/img/aqiqah-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 #nav-khitanan {
-    background-image: url(./assets/img/khitanan-background.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-attachment: scroll;
+  background-image: url(./assets/img/khitanan-background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 .paket-list li {
-    list-style: none;
+  list-style: none;
 }
 
 #paket-harga .card-header {
-    border: 0;
+  border: 0;
 }
 
 #tabel-fitur {
-    border-collapse: separate;
-    border-spacing: 20px;
+  border-collapse: separate;
+  border-spacing: 20px;
 }
 
 .accordion-header {
-    --bs-accordion-active-bg: gold;
+  --bs-accordion-active-bg: gold;
 }
 
-.card:hover{
-    transform: scale(1.05);
- box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }

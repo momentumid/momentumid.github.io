@@ -3,7 +3,7 @@ const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
 
-const newDats = new Date('October 31 2023');
+const newDats = new Date('April 05 2025');
 
 function countDown() {
     const currentDate = new Date();

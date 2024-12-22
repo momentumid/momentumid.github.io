@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <!-- Icon -->
+  <script src="https://kit.fontawesome.com/cfa43446be.js" crossorigin="anonymous"></script>
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Mr+Dafoe&display=swap" rel="stylesheet" />
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- simplyCountdown -->
+  <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+  <script src="countdown/simplyCountdown.min.js"></script>
+
+  <title>Adam & Hawa</title>
+</head>
+
+<body>
+  <section id="cover"
+    class="cover w-100 h-100 p-3 mx-auto d-flex justify-content-center text-center align-items-center text-light">
+    <div class="cover-title mt-3">
+      <h6>The Wedding of</h6>
+      <h1>Adam & Hawa</h1>
+      <p>Sabtu, 12/12/2025</p>
+      <h6 class="text-dear">Kepada Yth.<br />Bapak/Ibu/Saudara/i,</h6>
+      <h5>Nama Tamu</h5>
+      <a href="#hero" class="btn btn-light undangan mt-3" onclick="enableScroll()">
+        <i class="fa-regular fa-envelope"></i> Buka Undangan
+      </a>
+    </div>
+  </section>
+
+  <div class="body">
+    <section id="hero">
+      <div class="container pb-5">
+        <div class="row text-center text-light">
+          <div class="hero-title">
+            <small>Tanpa mengurangi rasa hormat, kami bermaksud mengundang
+              Bapak/Ibu/Saudara/I untuk menghadiri acara pernikahan
+              kami</small>
+            <p>Sabtu, 12/12/2025</p>
+            <div class="simply-countdown"></div>
+            <div class="row pt-3 text-center">
+              <div class="col">
+                <button type="button" class="btn btn-outline-light">
+                  <i class="fa-regular fa-calendar-days"></i> Save The Date
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="quote">
+      <div class="container p-3">
+        <div class="row">
+          <div class="col">
+            <figure class="text-center text-light">
+              <blockquote class="blockquote">
+                <p>
+                  "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia
+                  menciptakan pasangan-pasangan untukmu dari jenismu sendiri,
+                  agar kamu cenderung dan merasa tenteram kepadanya, dan Dia
+                  menjadikan di antaramu rasa kasih dan sayang. Sungguh, pada
+                  yang demikian itu benar-benar terdapat tanda-tanda
+                  (kebesaran Allah) bagi kaum yang berpikir."
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer text-light">
+                (Q.S Ar-ruum : 21) <cite title="Source Title"></cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="profile">
+      <div class="container text-center pt-3 pb-3">
+        <div class="row">
+          <h6>Our</h6>
+          <h2>Wedding</h2>
+        </div>
+        <div class="row align-items-end justify-content-center p-3">
+          <div class="col-4 profile-title1">
+            <h1 class="bride fw-bold display-1">Bride</h1>
+            <h2>The</h2>
+          </div>
+          <div class="col-8">
+            <div class="card p-2">
+              <img src="img/Profile-Woman.jpg" alt="" />
+            </div>
+            <h2>Hawa</h2>
+            <p>Putri dari Bapak Nya & Ibu Nya</p>
+            <button type="button" class="btn btn-sm text-light">
+              <i class="fa-brands fa-instagram"></i> instagram
+            </button>
+          </div>
+        </div>
+        <!-- <div class="profile-title p-3 text-center">
+            <h2>Adam & Hawa</h2>
+          </div> -->
+        <div class="row align-items-start justify-content-center p-3">
+          <div class="col-8">
+            <div class="card p-2">
+              <img src="img/Profile-Man.jpg" alt="" />
+            </div>
+            <h2>Adam</h2>
+            <p>Putra dari Bapak Nya & Ibu Nya</p>
+            <button type="button" class="btn btn-sm text-light">
+              <i class="fa-brands fa-instagram"></i> instagram
+            </button>
+          </div>
+          <div class="col-4 profile-title2">
+            <h2>The</h2>
+            <h1 class="groom fw-bold display-1">Groom</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="acara">
+      <div class="container mt-3 bg-light text-center">
+        <div class="row align-items-center text-center mb-3">
+          <div class="col-4">
+            <h1 class="akad card-title display-4">Akad</h1>
+          </div>
+          <div class="col-8">
+            <h3>Sabtu</h3>
+            <h1 class="display-1">31</h1>
+            <p>Desember 2023</p>
+            <p>
+              Pukul 10.00 WIB - Selesai<br />
+              Bertempat di :<br />
+              Hotel Sultan<br />
+              Jl. Gatot Subroto - Jakarta
+            </p>
+            <a href="https://maps.app.goo.gl/5MBgAU9N1c9rAZY36" class="btn text-light"><i
+                class="fa-solid fa-location-dot"></i> Buka Maps</a>
+          </div>
+        </div>
+        <div class="row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.3439741798084!2d106.80629517378333!3d-6.218290193769685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f2baed20d2f5%3A0x42bee1db200b445!2sThe%20Sultan%20Hotel%20%26%20Residence%20Jakarta!5e0!3m2!1sid!2sid!4v1701011331750!5m2!1sid!2sid"
+            width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="row align-items-center text-center p-3">
+          <div class="col-8">
+            <h3>Sabtu</h3>
+            <h1 class="display-1">31</h1>
+            <p>Desember 2023</p>
+            <p>
+              Pukul 12.00 WIB - 15.00 WIB<br />
+              Bertempat di :<br />
+              Hotel Sultan<br />
+              Jl. Gatot Subroto - Jakarta
+            </p>
+            <a href="https://maps.app.goo.gl/5MBgAU9N1c9rAZY36" class="btn text-light"><i
+                class="fa-solid fa-location-dot"></i> Buka Maps</a>
+          </div>
+          <div class="col-4">
+            <h1 class="resepsi card-title display-4">Resepsi</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sosmed">
+      <div class="siaran container pt-5 pb-5">
+        <div class="row justify-content-center text-center">
+          <div class="col">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h2 class="card-title">Siaran Langsung</h2>
+                <p>
+                  Saksikan live streaming acara pernikahan kami melalui sosial
+                  media kami.
+                </p>
+                <a class="btn btn-secondary" href="#" role="button"><i class="fa-solid fa-video"></i> Siaran
+                  Langsung</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ig container pt-5 pb-5">
+        <div class="row text-center">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">
+                  <h2>Bagikan Momen</h2>
+                </div>
+                <p>
+                  Bantu kami mengabadikan momen-momen bahagia di acara
+                  pernikahan kami dengan Instagram Filter di Stories yang
+                  telah kami sediakan
+                </p>
+                <p class="card-text">Jangan Lupa Tag Kami ya</p>
+                <a class="btn btn-secondary" href="#" role="button"><i class="fa-solid fa-camera"></i> Gunakan
+                  Filter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeri">
+      <div class="container text-center pt-5 pb-5">
+        <div class="row">
+          <h2>Galeri</h2>
+        </div>
+        <div class="row row-cols-2">
+          <div class="col mt-3">
+            <a href="img/Gallery/Gallery-2.jpg" data-toggle="lightbox" data-gallery="premium1-gallery">
+              <img src="img/Gallery/Gallery-2.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/Gallery/Gallery-3.jpg" data-toggle="lightbox" data-gallery="premium1-gallery">
+              <img src="img/Gallery/Gallery-3.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/Gallery/Gallery-4.jpg" data-toggle="lightbox" data-gallery="premium1-gallery">
+              <img src="img/Gallery/Gallery-4.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/Gallery/Gallery-6.jpg" data-toggle="lightbox" data-gallery="premium1-gallery">
+              <img src="img/Gallery/Gallery-6.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/Gallery/Gallery-7.jpg" data-toggle="lightbox" data-gallery="premium1-gallery">
+              <img src="img/Gallery/Gallery-7.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a href="img/Gallery/Gallery-8.jpg" data-toggle="lightbox" data-gallery="premium1-gallery">
+              <img src="img/Gallery/Gallery-8.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story">
+      <div class="container text-center text-light pt-5 pb-5">
+        <div class="row">
+          <h2>Love Story</h2>
+        </div>
+      </div>
+    </section>
+    <section id="gift">
+      <div class="container text-center pt-3">
+        <div class="row">
+          <div class="col">
+            <div class="card gift pt-3">
+              <div class="card-body">
+                <h2>Kirim Hadiah</h2>
+                <p>
+                  Kehadiran Anda merupakan hadiah terindah. Namun, apabila
+                  Anda hendak memberikan tanda kasih kepada kami, dapat
+                  melalui fitur di bawah ini.
+                </p>
+                <a class="btn btn-secondary" href="#" role="button"><i class="fa-solid fa-gift"></i> Kirim Hadiah</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="rsvp">
+      <div class="container text-center pt-3">
+        <div class="row">
+          <div class="col">
+            <h2>RSVP</h2>
+          </div>
+        </div>
+
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center">
+          <div class="col-auto">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama">
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Jumlah</label>
+              <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" max="5" length="1" value="1">
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+              <select type="status" class="form-select" id="status" name="status">
+                <option selected>Pilih salah satu</option>
+                <option value="1">Hadir</option>
+                <option value="0">Tidak Hadir</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-auto" style="margin-top: 35px;">
+            <button type="submit" class="btn btn-primary mb-3">Kirim</button>
+          </div>
+        </form>
+
+
+
+      </div>
+    </section>
+
+    <div id="audio-container">
+      <audio id="song" loop>
+        <source src="audio/All Time Low The Other Side OFFICIAL AUDIO  YouTube.mp3" type="audio/mp3" />
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="fa-solid fa-volume-high"></i>
+      </div>
+    </div>
+
+    <nav class="navbar sticky-bottom">
+      <div class="container-fluid justify-content-evenly text-light">
+        <a class="nav-link" href="#hero"><i class="fa-solid fa-house-user"></i></a>
+        <a class="nav-link" href="#profile"><i class="fa-solid fa-children"></i></a>
+        <a class="nav-link" href="#acara"><i class="fa-solid fa-landmark-dome"></i></a>
+        <a class="nav-link" href="#sosmed"><i class="fa-solid fa-video"></i></a>
+        <a class="nav-link" href="#galeri"><i class="fa-solid fa-photo-film"></i></a>
+        <a class="nav-link" href="#story"><i class="fa-solid fa-heart"></i></a>
+        <a class="nav-link" href="#gift"><i class="fa-solid fa-gift"></i></a>
+        <a class="nav-link" href="#rsvp"><i class="fa-solid fa-book"></i></a>
+      </div>
+    </nav>
+  </div>
+
+  <script>
+    simplyCountdown(".simply-countdown", {
+      year: 2025, // required
+      month: 12, // required
+      day: 12, // required
+      hours: 0, // Default is 0 [0-23] integer
+      minutes: 0, // Default is 0 [0-59] integer
+      seconds: 0, // Default is 0 [0-59] integer
+      words: {
+        //words displayed into the countdown
+        days: { singular: "hari", plural: "hari" },
+        hours: { singular: "jam", plural: "jam" },
+        minutes: { singular: "menit", plural: "menit" },
+        seconds: { singular: "detik", plural: "detik" },
+      },
+    });
+  </script>
+
+  <script>
+    const rootElement = document.querySelector(":root");
+    const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
+    const audioIcon = document.querySelector(".audio-icon-wrapper i");
+    const song = document.querySelector("#song");
+    let isPlaying = false;
+
+    function disableScroll() {
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+      window.onscroll = function () {
+        window.scrollTo(scrollTop, scrollLeft);
+      };
+    }
+
+    // disable smooth scroll bootstrap to auto
+    rootElement.style.scrollBehavior = "auto";
+
+    function enableScroll() {
+      window.onscroll = function () { };
+      rootElement.style.scrollBehavior = "smooth"; //mengaktifkan kembali smooth scroll bootstrap
+      playAudio();
+    }
+
+    function playAudio() {
+      audioIconWrapper.style.display = "flex";
+      song.play();
+      isPlaying = true;
+    }
+
+    audioIconWrapper.onclick = function () {
+      if (isPlaying) {
+        song.pause();
+        audioIcon.classList.remove("fa-volume-high");
+        audioIcon.classList.add("fa-volume-xmark");
+      } else {
+        song.play();
+        audioIcon.classList.add("fa-volume-high");
+        audioIcon.classList.remove("fa-volume-xmark");
+      }
+
+      isPlaying = !isPlaying;
+    };
+
+    disableScroll();
+  </script>
+
+  <script>
+    var audio = document.getElementById("song");
+    audio.volume = 0.3; //audio volume
+  </script>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search); //get name from search bar browser
+    const nama = urlParams.get("to");
+    const namaContainer = document.querySelector(".cover-title h5");
+    namaContainer.innerText = nama;
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+</body>
+
+</html>
